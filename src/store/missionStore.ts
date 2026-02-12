@@ -36,6 +36,7 @@ export interface MissionData {
     sections: Section[];
     coords: Array<{ id: string; name: string; mgrs: string }>;
     freqs: Array<{ id: string; unit: string; mhz: string }>;
+    images: string[];
     status: 'draft' | 'approved' | 'archived';
 }
 
